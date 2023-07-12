@@ -1,0 +1,53 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center; }
+
+.container {
+  max-width: 500px;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffd500;
+  border-radius: 10%;
+  border-style: solid; }
+  .container h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    text-shadow: 1px 2px black;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px; }
+  .container form {
+    margin-bottom: 20px; }
+  .container label {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin-bottom: 5px; }
+  .container input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px; }
+  .container button {
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+    background-color: black;
+    width: 100%;
+    padding: 10px; }
+
+.card {
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.card h2 {
+  margin-top: 0; }
+
+.card p {
+  margin-bottom: 5px; }
